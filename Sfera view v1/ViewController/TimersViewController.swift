@@ -131,39 +131,15 @@ extension TimersViewController: UITableViewDelegate {
 
 extension TimersViewController: NewTimerDelegate {
     func didTapAddTimerButton(timer: TimerElement) {
-//        timers.append(timer)
-//        print(timers)
-//
-//        tableView.beginUpdates()
-//        tableView.insertRows(at: [(NSIndexPath(row: timers.count-1, section: 1) as IndexPath)],
-//                             with: .automatic)
-//        tableView.endUpdates()
-        
         viewModel.didAddTimerTap(timer: timer)
         viewModel.sortTimers()
-        
     }
 }
 
 extension TimersViewController: TimerCellDelegate {
     func didEndTimer(index: Int) {
-        print("Index с ячейки: \(index)")
-        print("Кол-во эл-ов массива timers ДО: \(timers.count)")
-        print("Состав массива timers ДО: \(timers)")
-        
         guard !timers.isEmpty else { return }
         viewModel.didRemoveTimer(index: index)
-        print("Кол-во эл-ов массива timers ПОСЛЕ : \(timers.count)")
-        print("Состав массива timers После: \(timers)")
         tableView.reloadData()
-        
-//        let indexPath = [NSIndexPath(row: index, section: 1)]
-//        timers.remove(at: index)
-//        self.tableView.beginUpdates()
-//
-//        self.tableView.deleteRows(at: indexPath as [IndexPath] , with: .fade)
-//        self.tableView.endUpdates()
-//        self.tableView.reloadData()
-   
     }
 }
