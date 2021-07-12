@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B91EC3C426976974001E04C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC3C326976974001E04C0 /* AppDelegate.swift */; };
+		B91EC3C626976974001E04C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC3C526976974001E04C0 /* SceneDelegate.swift */; };
+		B91EC3C826976974001E04C0 /* TimersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC3C726976974001E04C0 /* TimersViewController.swift */; };
+		B91EC3CD2697697F001E04C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91EC3CC2697697F001E04C0 /* Assets.xcassets */; };
+		B91EC3DE26978DC7001E04C0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC3DD26978DC7001E04C0 /* HeaderView.swift */; };
+		B91EC3E326979C41001E04C0 /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC3E226979C41001E04C0 /* TimerCell.swift */; };
+		B91EC40E2697E1F1001E04C0 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC40D2697E1F1001E04C0 /* Extension+String.swift */; };
+		B91EC4122697E312001E04C0 /* NewTimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC4112697E312001E04C0 /* NewTimerCell.swift */; };
+		B91EC4382699C6F9001E04C0 /* TimersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC4372699C6F8001E04C0 /* TimersViewModel.swift */; };
+		B91EC43D2699C785001E04C0 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC43C2699C785001E04C0 /* Dynamic.swift */; };
+		B91EC46B269B015B001E04C0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91EC46A269B015B001E04C0 /* Launch Screen.storyboard */; };
+		B91EC4C8269C74AC001E04C0 /* TimerElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91EC4C7269C74AB001E04C0 /* TimerElement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B91EC3C026976974001E04C0 /* Sfera view v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sfera view v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91EC3C326976974001E04C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B91EC3C526976974001E04C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B91EC3C726976974001E04C0 /* TimersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersViewController.swift; sourceTree = "<group>"; };
+		B91EC3CC2697697F001E04C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B91EC3D12697697F001E04C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91EC3DD26978DC7001E04C0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B91EC3E226979C41001E04C0 /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
+		B91EC40D2697E1F1001E04C0 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		B91EC4112697E312001E04C0 /* NewTimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimerCell.swift; sourceTree = "<group>"; };
+		B91EC4372699C6F8001E04C0 /* TimersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersViewModel.swift; sourceTree = "<group>"; };
+		B91EC43C2699C785001E04C0 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		B91EC46A269B015B001E04C0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B91EC4C7269C74AB001E04C0 /* TimerElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerElement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B91EC3BD26976974001E04C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B91EC3B726976974001E04C0 = {
+			isa = PBXGroup;
+			children = (
+				B91EC3C226976974001E04C0 /* Sfera view v1 */,
+				B91EC3C126976974001E04C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B91EC3C126976974001E04C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B91EC3C026976974001E04C0 /* Sfera view v1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B91EC3C226976974001E04C0 /* Sfera view v1 */ = {
+			isa = PBXGroup;
+			children = (
+				B91EC40D2697E1F1001E04C0 /* Extension+String.swift */,
+				B91EC43C2699C785001E04C0 /* Dynamic.swift */,
+				B91EC4C7269C74AB001E04C0 /* TimerElement.swift */,
+				B91EC466269A6E4B001E04C0 /* ViewController */,
+				B91EC464269A6E3F001E04C0 /* ViewModel */,
+				B91EC460269A6E26001E04C0 /* Cell */,
+				B91EC462269A6E32001E04C0 /* View */,
+				B91EC3CC2697697F001E04C0 /* Assets.xcassets */,
+				B91EC3C326976974001E04C0 /* AppDelegate.swift */,
+				B91EC3C526976974001E04C0 /* SceneDelegate.swift */,
+				B91EC46A269B015B001E04C0 /* Launch Screen.storyboard */,
+				B91EC3D12697697F001E04C0 /* Info.plist */,
+			);
+			path = "Sfera view v1";
+			sourceTree = "<group>";
+		};
+		B91EC460269A6E26001E04C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B91EC4112697E312001E04C0 /* NewTimerCell.swift */,
+				B91EC3E226979C41001E04C0 /* TimerCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B91EC462269A6E32001E04C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B91EC3DD26978DC7001E04C0 /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B91EC464269A6E3F001E04C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B91EC4372699C6F8001E04C0 /* TimersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B91EC466269A6E4B001E04C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B91EC3C726976974001E04C0 /* TimersViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B91EC3BF26976974001E04C0 /* Sfera view v1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91EC3D42697697F001E04C0 /* Build configuration list for PBXNativeTarget "Sfera view v1" */;
+			buildPhases = (
+				B91EC3BC26976974001E04C0 /* Sources */,
+				B91EC3BD26976974001E04C0 /* Frameworks */,
+				B91EC3BE26976974001E04C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sfera view v1";
+			productName = "Sfera view v1";
+			productReference = B91EC3C026976974001E04C0 /* Sfera view v1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B91EC3B826976974001E04C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B91EC3BF26976974001E04C0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B91EC3BB26976974001E04C0 /* Build configuration list for PBXProject "Sfera view v1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B91EC3B726976974001E04C0;
+			productRefGroup = B91EC3C126976974001E04C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B91EC3BF26976974001E04C0 /* Sfera view v1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B91EC3BE26976974001E04C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91EC46B269B015B001E04C0 /* Launch Screen.storyboard in Resources */,
+				B91EC3CD2697697F001E04C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B91EC3BC26976974001E04C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91EC4122697E312001E04C0 /* NewTimerCell.swift in Sources */,
+				B91EC43D2699C785001E04C0 /* Dynamic.swift in Sources */,
+				B91EC4382699C6F9001E04C0 /* TimersViewModel.swift in Sources */,
+				B91EC3DE26978DC7001E04C0 /* HeaderView.swift in Sources */,
+				B91EC40E2697E1F1001E04C0 /* Extension+String.swift in Sources */,
+				B91EC4C8269C74AC001E04C0 /* TimerElement.swift in Sources */,
+				B91EC3C826976974001E04C0 /* TimersViewController.swift in Sources */,
+				B91EC3C426976974001E04C0 /* AppDelegate.swift in Sources */,
+				B91EC3C626976974001E04C0 /* SceneDelegate.swift in Sources */,
+				B91EC3E326979C41001E04C0 /* TimerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B91EC3D22697697F001E04C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B91EC3D32697697F001E04C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B91EC3D52697697F001E04C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89B98ZU3PL;
+				INFOPLIST_FILE = "Sfera view v1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "max.Sfera-view-v1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B91EC3D62697697F001E04C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89B98ZU3PL;
+				INFOPLIST_FILE = "Sfera view v1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "max.Sfera-view-v1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B91EC3BB26976974001E04C0 /* Build configuration list for PBXProject "Sfera view v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91EC3D22697697F001E04C0 /* Debug */,
+				B91EC3D32697697F001E04C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91EC3D42697697F001E04C0 /* Build configuration list for PBXNativeTarget "Sfera view v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91EC3D52697697F001E04C0 /* Debug */,
+				B91EC3D62697697F001E04C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B91EC3B826976974001E04C0 /* Project object */;
+}
